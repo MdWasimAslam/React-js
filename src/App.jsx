@@ -15,6 +15,7 @@ import UseIdHook from "./components/13-useIdHook";
 import Fragment from "./components/14-Fragment";
 import CustomHook from "./components/15-customHook";
 import ReactRouter from "./routes/ReactRouter";
+import Practice from "./practice/Practice";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <UseIdHook/> */}
       {/* <Fragment /> */}
       {/* <CustomHook /> */}
-      <ReactRouter/>
+      {/* <ReactRouter/> */}
+      <Practice/>
     </>
   );
 }
