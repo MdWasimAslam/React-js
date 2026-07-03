@@ -11,10 +11,14 @@ import PureComponents from "./components/09-PureComponents";
 import DerivedState from "./components/10-DerivedState";
 import LiftingStateUp from "./components/11-LiftingStateUp";
 import UpdatingObjectsInState from "./components/12-UpdatingObjectsInState";
+import UseIdHook from "./components/13-useIdHook";
+import Fragment from "./components/14-Fragment";
+import CustomHook from "./components/15-customHook";
+import ReactRouter from "./routes/ReactRouter";
 
 function App() {
   return (
-    <div>
+    <>
       {/* <UseEffectHook/> */}
       {/* <ReactLifeCycle /> */}
       {/* <UseRefHook /> */}
@@ -27,7 +31,11 @@ function App() {
       {/* <DerivedState/> */}
       {/* <LiftingStateUp/> */}
       {/* <UpdatingObjectsInState/> */}
-    </div>
+      {/* <UseIdHook/> */}
+      {/* <Fragment /> */}
+      {/* <CustomHook /> */}
+      <ReactRouter/>
+    </>
   );
 }
 
