@@ -44,6 +44,9 @@ function Navbar() {
         <Link to="/about" style={linkStyle}>
           About
         </Link>
+         <Link to="/employees" style={linkStyle}>
+          Employees
+        </Link>
         <Link to="/admin" style={linkStyle}>
           Admin
         </Link>

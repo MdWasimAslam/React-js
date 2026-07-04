@@ -8,6 +8,7 @@ import NotFound from "./Pages/NotFound";
 import Admin from "./Pages/Admin";
 import ManageUsers from "./Pages/Admin/ManageUsers";
 import DeletedUser from "./Pages/Admin/DeletedUser";
+import Employees from "./Pages/Employees";
 
 function ReactRouter() {
   return (
@@ -20,6 +21,8 @@ function ReactRouter() {
          <Route path="/" Component={HomeRoute} />
         <Route path="/products" Component={Products} />
         <Route path="/about" Component={About} />
+        <Route path="/employees" Component={Employees} />
+        <Route path="/employees/:id" Component={Employees} />
        </Route>
 
         {/* Admin */}

@@ -16,6 +16,9 @@ import Fragment from "./components/14-Fragment";
 import CustomHook from "./components/15-customHook";
 import ReactRouter from "./routes/ReactRouter";
 import Practice from "./practice/Practice";
+import ReduxApp from "./redux/App";
+import HOC from "./components/17-HOC";
+import BasicAuthHOC from "./components/18-BasicAuthHOC";
 
 function App() {
   return (
@@ -36,7 +39,10 @@ function App() {
       {/* <Fragment /> */}
       {/* <CustomHook /> */}
       {/* <ReactRouter/> */}
-      <Practice/>
+      {/* <Practice/> */}
+      {/* <ReduxApp/> */}
+      {/* <HOC/> */}
+      <BasicAuthHOC />
     </>
   );
 }
