@@ -211,3 +211,18 @@ form {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
+
+
+pre {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 20px 0;
+  white-space: pre-wrap;
+}
+
+code {
+  font-family: Consolas, monospace;
+}

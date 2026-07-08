@@ -19,6 +19,9 @@ import Practice from "./practice/Practice";
 import ReduxApp from "./redux/App";
 import HOC from "./components/17-HOC";
 import BasicAuthHOC from "./components/18-BasicAuthHOC";
+import ApiMethods from "./components/19-ApiMethods";
+import JsonServer from "./components/20-JsonServer";
+import AppV2 from "./v2/App";
 
 function App() {
   return (
@@ -39,10 +42,13 @@ function App() {
       {/* <Fragment /> */}
       {/* <CustomHook /> */}
       {/* <ReactRouter/> */}
-      {/* <Practice/> */}
+      <Practice/>
       {/* <ReduxApp/> */}
       {/* <HOC/> */}
-      <BasicAuthHOC />
+      {/* <BasicAuthHOC /> */}
+      {/* <ApiMethods/> */}
+      {/* <JsonServer/> */}
+      {/* <AppV2/> */}
     </>
   );
 }

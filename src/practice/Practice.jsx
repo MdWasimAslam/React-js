@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
 
 function Practice() {
+  Proxy
   return (
-    <div>Practice</div>
-  )
+    <div>
+      <h1>Practice</h1>
+      <button
+        onClick={() => {
+          console.log("");
+        }}
+      >
+        Click
+      </button>
+    </div>
+  );
 }
 
-export default Practice
+export default Practice;
